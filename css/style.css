@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family:"Open sans", sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+nav ul li, h1 {
+    display: inline;
+    margin-left: 50px;
+}
+
+
+nav ul li a {
+    color: grey;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.loupe {
+    margin-left: 300px;
+    height: 25px;
+}
+
+.login, .register {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: white;
+    border: transparent;
+    color: #96c67f;
+    font-weight: 500;
+}
+
+.register {
+
+    height: 50px;
+    width: 100px;
+
+    background-color: #96c67f;
+    border: transparent;
+    color: white;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+
+.news_title {
+    position: absolute;
+
+    margin-top: 105px;
+    margin-left: 250px;
+
+    font-size: 150px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.container {
+
+    margin-top: 240px;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 400px;
+    width: 1500px;
+
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+
+.news-content {
+    position: relative;
+    margin-left: 100px;
+    top: 80px;
+}
+
+.article_title {
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.woman {
+    position: absolute;
+
+    margin-top: 120px;
+    right: 330px;
+
+    height: 650px;
+    border-radius: 30px;
+}
+
+.instructors {
+    position: absolute;
+
+    margin-top: 450px;
+    right: 660px;
+
+    height: 230px;
+    border-radius: 40px;
+}
+
+.students {
+    position: absolute;
+
+    margin-top: 550px;
+    right: 300px;
+
+    height: 180px;
+    border-radius: 40px;
+}
